@@ -12,7 +12,7 @@ html {
 nav {
     display: flex;
     align-items: center;
-    background-color: rgb(60, 59, 60);
+    background-color: #3a3939;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -21,14 +21,15 @@ nav {
     margin-left: -8px;
 }
 
-.nav-p{
+.nav-p {
     color: white;
-    padding-right: 1000px;
-    padding-left: 100px;
+    padding-right: 600px;
+    padding-left: 10px;
 }
 
 nav img {
     height: 40px;
+    padding-left: 250px;
 }
 
 nav ul {
@@ -43,8 +44,6 @@ nav ul li {
     list-style: none;
 }
 
-
-
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -54,4 +53,130 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgb(226, 200, 91);
     border-radius: 10px;
+}
+
+/* CSS para el Menú */
+
+
+/* CSS PARA INDEX*/
+
+.whiteText {
+    color: white;
+}
+
+.yellowContainer {
+
+    background-image: url(img/cabecera1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 150px;
+    margin-left: -px;
+    padding-bottom: 150px;
+}
+
+.yellowContainer h1{
+
+    text-shadow: black;
+    color: white;
+    font-size: 50px;
+}
+
+.yellowContainer p {
+
+    text-shadow: black;
+    color: white;
+    font-size: 35px;
+}
+
+.aboutMe-link {
+    color: rgb(223, 194, 99);
+}
+
+.whiteContainer {
+
+    padding-inline: 150px;
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 20px;
+}
+
+.article {
+    background-color: rgb(242, 242, 241);
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border: 1px solid black;
+    max-width: 100%;
+    width: 100%;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.article p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+
+}
+
+.whiteContainer-h1 {
+    padding-top: 10px;
+    text-shadow: black;
+    color: rgb(102, 104, 102);
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.whiteContainer-p {
+    text-shadow: black;
+    color: rgb(102, 104, 102);
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+/* CSS PARA INDEX*/
+
+
+
+/* CSS para el Footer*/
+
+footer {
+
+    background-color: rgb(61, 61, 60);
+    padding: 50px;
+    text-align: center;
+}
+
+.ul1-ul2 {
+
+    display: flex;
+    padding-left: 800px;
+}
+
+.footerListP {
+    color: grey;
+}
+
+.ul-footer1,
+.ul-footer2 {
+    list-style-type: none;
+
+}
+
+.ul-footer1 li a,
+.ul-footer2 li a {
+    color: yellow;
+    text-decoration: none;
 }
