@@ -7,6 +7,9 @@ html {
 body {
     font-family: 'Baloo Da 2', 'Roboto', sans-serif;
     color: #333;
+    margin: 0;
+    overflow-x: hidden;
+
 }
 
 .header {
@@ -33,9 +36,9 @@ nav {
     padding-left: 10px;
 }
 
-nav img {
+.navImage {
     height: 40px;
-    padding-left: 150px;
+    padding-left: 420px;
 }
 
 nav ul {
@@ -66,12 +69,41 @@ nav ul li a:hover {
 /* CSS PARA REDES SOCIALES*/
 
 
-.social-media {
+.social-media-index {
     position: absolute;
-    bottom: 5px;
-    right: 400px;
-    display: flex;
-    gap: 10px;
+    right: 300px;
+    top: 878px;
+    margin-left: auto;
+
+}
+
+
+/* Las clases social-media-diseño/inspiracion/contactar son identicas pero las pongo por separado porque creo que así son más manipulables, al ser todas independientes*/
+
+.social-media-diseño {
+
+    position: absolute;
+    right: 480px;
+    top: 350px;
+    margin-left: auto;
+
+}
+
+.social-media-inspiracion {
+
+    position: absolute;
+    right: 480px;
+    top: 350px;
+    margin-left: auto;
+
+}
+
+.social-media-contactar {
+
+    position: absolute;
+    right: 480px;
+    top: 350px;
+    margin-left: auto;
 
 }
 
@@ -151,8 +183,7 @@ nav ul li a:hover {
     justify-items: center;
     align-items: center;
     padding-top: 150px;
-    margin-left: -10px;
-    margin-right: -20px;
+
     padding-bottom: 150px;
 }
 
@@ -275,7 +306,7 @@ footer {
 
 .ul-footer1 li a,
 .ul-footer2 li a {
-    color: yellow;
+    color: rgb(234, 203, 88);
     text-decoration: none;
 }
 
@@ -439,7 +470,7 @@ fieldset {
 
 .form-group label {
     width: 150px;
-    text-align: center;
+    text-align: left;
     margin-right: 10px;
     color: rgb(61, 61, 60);
 }
@@ -450,7 +481,21 @@ fieldset {
     font-size: 16px;
     border-radius: 5px;
     border: none;
+}
 
+.form-group select {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #f4e04d;
+}
+
+.form-group option::placeholder {
+
+    color: rgb(226, 200, 91);
 }
 
 
@@ -568,10 +613,8 @@ button[type="reset"]:hover {
     font-size: 20px;
 }
 
-.uuu {
-    list-style-position: inside;
-    padding-left: 0;
-    padding-left: 260px;
+.inspiracionList {
+    padding-left: 280px;
     font-size: 23px;
 }
 
@@ -598,13 +641,11 @@ button[type="reset"]:hover {
     padding-left: 0px;
     text-align: right;
     width: 1000px;
-    margin-right: 40px;
     font-size: 20px;
-    padding-left: 00px;
-    padding-right: 50px;
     padding-block: 100px;
     margin-top: 40px;
     margin-bottom: 50px;
+    padding-right: 50px;
     border-right: 10px solid rgb(229, 202, 96);
 }
 
@@ -642,12 +683,16 @@ code {
 }
 
 .code1 {
-
-    width: 10%;
-    white-space: pre-wrap;
-
-
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto;
 }
+
+.code1 pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
 
 .whiteContainer-p-final {
     text-shadow: black;

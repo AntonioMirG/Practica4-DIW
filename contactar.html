@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contactar</title>
     <link rel="stylesheet" href="estilos.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&family=Roboto:wght@400;700&display=swap"
@@ -32,7 +32,7 @@
         <div>
             <h1>Portafilio personal de Antonio Mir<br><span>Diseñador Multimedia</span></h1>
         </div>
-        <div class="social-media">
+        <div class="social-media-contactar">
             <a href="#" class="icon facebook" aria-label="Facebook"></a>
             <a href="#" class="icon gmail" aria-label="Gmail"></a>
             <a href="#" class="icon google" aria-label="Google"></a>
@@ -73,7 +73,7 @@
 
                         <div class="form-group">
                             <label for="fecha">Fecha de nacimiento:</label>
-                            <input type="date" id="fecha" name="fecha">
+                            <input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa">
                         </div>
                     </fieldset>
 
@@ -82,7 +82,12 @@
 
                         <div class="form-group">
                             <label for="motivo">Por qué quieres contactar:</label>
-                            <input type="text" id="motivo" name="motivo" placeholder="Ofrecer un proyecto">
+                            <select name="opciones" id="opciones">
+                                <option value="Ofrecer un proyecto">Ofrecer un proyecto</option>
+                                <option value="Comprar mis diseños">Comprar mis diseños</option>
+                                <option value="Saber más sobre mi">Saber más sobre mi</option>
+                                <option value="Otras razones">Otras razones</option>
+                            </select>
                         </div>
 
                         <div class="form-group"><label for="mensaje">Mensaje:</label>
