@@ -32,7 +32,7 @@ nav {
 
 .nav-p {
     color: white;
-    padding-right: 700px;
+    padding-right: 500px;
     padding-left: 10px;
 }
 
@@ -188,13 +188,11 @@ nav ul li a:hover {
 }
 
 .yellowContainer h1 {
-    text-shadow: black;
     color: white;
     font-size: 50px;
 }
 
 .yellowContainer p {
-    text-shadow: black;
     color: white;
     font-size: 35px;
 }
@@ -258,14 +256,12 @@ nav ul li a:hover {
 
 .whiteContainer-h1 {
     padding-top: 10px;
-    text-shadow: black;
     color: rgb(102, 104, 102);
     font-size: 30px;
     padding-left: 260px;
 }
 
 .whiteContainer-p {
-    text-shadow: black;
     color: rgb(102, 104, 102);
     font-size: 25px;
     padding-left: 260px;
@@ -342,14 +338,12 @@ footer {
 
 .yellowContainer-diseño h1 {
 
-    text-shadow: black;
     color: white;
     font-size: 50px;
 }
 
 .yellowContainer-diseño p {
 
-    text-shadow: black;
     color: white;
     font-size: 35px;
 }
@@ -419,9 +413,10 @@ th {
     border-radius: 80px;
     padding-inline: 35px;
     padding-block: 12px;
+    text-decoration: none;
     color: rgb(61, 61, 60);
-
-
+    font-family: 'Baloo Da 2', sans-serif;
+    font-size: 18px;
 }
 
 .td-button:hover {
@@ -429,13 +424,6 @@ th {
     transform: scale(1.05);
 }
 
-.td-button a {
-    text-decoration: none;
-    color: rgb(61, 61, 60);
-    font-family: 'Baloo Da 2', sans-serif;
-    font-size: 18px;
-
-}
 
 /* CSS PARA CONTACTAR */
 
@@ -447,7 +435,9 @@ th {
     border-radius: 10px;
     width: 500px;
     margin: 20px;
-    margin-left: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 
 }
@@ -458,10 +448,7 @@ fieldset {
     margin-bottom: 10px;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .form-group {
     display: flex;
@@ -544,7 +531,8 @@ textarea {
     height: 100px;
 }
 
-.botones {
+.buttons {
+
     display: flex;
     flex-direction: column;
 }
@@ -660,7 +648,6 @@ button[type="reset"]:hover {
 .codeBlock-HTML-CSS-h2 {
 
     padding-top: 50px;
-    text-shadow: black;
     color: rgb(102, 104, 102);
     font-size: 30px;
     padding-left: 100px;
@@ -695,7 +682,6 @@ code {
 
 
 .whiteContainer-p-final {
-    text-shadow: black;
     color: rgb(102, 104, 102);
     font-size: 25px;
     padding-left: 200px;
